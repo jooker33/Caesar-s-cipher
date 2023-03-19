@@ -123,8 +123,6 @@ class Ui_MainWindow(object):
 
         self.history_file = open("history_file.txt", 'r', encoding="utf-8")
         self.plainTextEdit_5_history.setPlainText(self.history_file.read())
-
-
         # Process the clicks below
         self.Butt_enc.clicked.connect(self.lets_start_to_encrypt)
         self.pushButton_2.clicked.connect(self.lets_start_to_decrypt)
@@ -132,13 +130,11 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Caesar's Cipher"))
-
         self.Butt_enc.setText(_translate("MainWindow", "Encrypt"))
         self.label_key.setText(_translate("MainWindow", "Encryption key"))
         self.label.setText(_translate("MainWindow", "Your text: "))
         self.label_2.setText(_translate("MainWindow", "Encrypted text: "))
         self.Butt_decr.setTabText(self.Butt_decr.indexOf(self.tab), _translate("MainWindow", "Encoder"))
-
         self.pushButton_2.setText(_translate("MainWindow", "Decrypt"))
         self.label_2_key.setText(_translate("MainWindow", "Encryption key"))
         self.label_4.setText(_translate("MainWindow", "Decrypted text: "))
