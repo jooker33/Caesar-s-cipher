@@ -1,14 +1,21 @@
-Случай Зашифровки  | 03 of November 2021 | 12:48_11
-rabotaet!!
-Зашифровано в 
-gpqdipti!!
-с Ключом: 15
+Case of Encryption  | 19 of March 2023 | 14:23_36
+firsrt encryption
+Encrypted in 
+firsrt encryption
+with Key: 0
 
 
-Случай Дешифровки  | 03 of November 2021 | 12:48_22
-gpqdipti!!
-Дешифровано в: 
-rabotaet!!
-с Ключом: 15
+Case of Encryption  | 19 of March 2023 | 14:23_44
+firsrt encryption
+Encrypted in 
+jmvwvx irgvctxmsr
+with Key: 4
+
+
+Case of Decryption  | 19 of March 2023 | 14:23_55
+jmvwvx irgvctxmsr
+Decoded in: 
+firsrt encryption
+with Key: 4
 
 
